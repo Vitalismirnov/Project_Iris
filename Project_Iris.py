@@ -7,10 +7,17 @@
 # import needed modules
 import pandas as pd
 import numpy as np
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 # read in Iris data as a data frame
-df = pd.read_csv('Iris.csv')
+iris = pd.read_csv('Iris.csv')
+#check the data read in correctly
+iris.head()
+iris.tail()
+#info on dataset
+iris.info()
+#summary stats of numeric vars
+iris.describe()
