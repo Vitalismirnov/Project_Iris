@@ -6,8 +6,10 @@
 
 # import needed modules
 import pandas as pd
+from pandas.tools.plotting import scatter_matrix
 import numpy as np
 #import seaborn as sns
+#sns.set(color_codes=True)
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -24,5 +26,7 @@ iris.describe()
 
 # plot data description stats
 iris.plot(kind="box")
-#show plot
+iris.hist()
+iris.scatter()
+# show plots
 plt.show()
