@@ -21,3 +21,8 @@ iris.tail()
 iris.info()
 #summary stats of numeric vars
 iris.describe()
+
+# plot data description stats
+iris.plot(kind="box")
+#show plot
+plt.show()
