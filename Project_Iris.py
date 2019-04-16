@@ -8,7 +8,7 @@
 import pandas as pd
 from pandas.tools.plotting import scatter_matrix
 import numpy as np
-#import seaborn as sns
+import seaborn as sns
 #sns.set(color_codes=True)
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -28,5 +28,6 @@ iris.describe()
 iris.plot(kind="box")
 iris.hist()
 iris.scatter()
+sns.pairplot(iris, hue = 'species')
 # show plots
 plt.show()
