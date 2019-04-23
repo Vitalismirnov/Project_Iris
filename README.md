@@ -29,7 +29,8 @@ To view data set last 5 lines:
 <img src = "tail.png" width = "300">
  
 To gain basic info on data:
-<img src = "info.png" width = "300">
+
+<img src = "info.png" width = "350">
  
 Basic stats of the numeric variables: shows number of observations, averages, standard deviation, min, max and 25th, 50th and 75th percentalies.
  
