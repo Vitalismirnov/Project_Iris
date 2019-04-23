@@ -12,30 +12,15 @@
 Iris flower data set is a well-known multivariate data set created by British statistician and biologist Ronald Fisher back in 1936 to demonstrate the work of the discriminant analysis method developed by him 
 Alsow data called Anderson's Iris data set because Edgar Anderson as a botanist collected the data to quantify the morphologic variation of Iris flowers.[1] 
 
-Fisher’s method became worldwide known data set example for data mining and data exploration for statisticians, mathematicians, programmers etc. Iris data set contains three different flower classes with numeric values for sepal and petal width and length. 
+Fisher’s method became worldwide known data set example for data mining and data exploration for statisticians, mathematicians, programmers etc. Iris data set contains three different flower classes with numeric values for sepal and petal width and length.  [2]
 
-The data set collected from three iris species (iris versicolor, iris setosa and iris virginica) and contained 150 records 50 each where flowers sepals and petals width and length measured in centimetres and all the species data carefully collected end measured for each flower.
+The data set collected from three iris species (iris versicolor, iris setosa and iris virginica) and contained 150 records 50 each where flowers sepals and petals width and length measured in centimetres and all the species data carefully collected end measured for each flower.[1]
 
-Traditionally this data set used for prediction, classification to identify the flowers as a certain type of irises. By visually observing this data you could see how data grouping in cluster with these three different types of irises. This data set has become a classic, and is often used in the literature to illustrate the work of various statistical algorithms.
+Traditionally this data set used for prediction, classification to identify the flowers as a certain type of irises. By visually observing this data you could see how data grouping in cluster with these three different types of irises. This data set has become a classic, and is often used in the literature to illustrate the work of various statistical algorithms.[3]
 
-### This repository contains further two documents:
-
- 1) See the script for data analysis is in Project_Iris.py
- 2) See full project document in MS Word format in file Project_Iris.doc
-
-Project Iris
-Project Outline:
-1.	Data Description
-2.	Descriptive Statistics
-3.	Further Data Analysis
-4.	References
-Data Description
-Iris flower data set is a well-known multivariate data set created by British statistician and biologist Ronald Fisher back in 1936 to demonstrate the work of the discriminant analysis method developed by him also data called Anderson's Iris data set because Edgar Anderson as a botanist collected the data to quantify the morphologic variation of Iris flowers.
-Fisher’s method became worldwide known data set example for data mining and data exploration for statisticians, mathematicians, programmers etc. Iris data set contains three different flower classes with numeric values for sepal and petal width and length.
-The data set collected from three iris species (iris versicolor, iris setosa and iris virginica) and contained 150 records 50 each where flowers sepals and petals width and length measured in centimetres and all the species data carefully collected end measured for each flower.
-Traditionally this data set used for prediction, classification to identify the flowers as a certain type of irises. By visually observing this data you could see how data grouping in cluster with these three different types of irises. This data set has become a classic, and is often used in the literature to illustrate the work of various statistical algorithms.
-Descriptive Statistics
+## Descriptive Statistics
 To view data set – top 5 lines:
+<img src = "Figure_1_boxplot.png" width = "150">
  
 To view data set last 5 lines:
  
@@ -74,9 +59,17 @@ KNN and SVM seem to be performing very well. These can be used to make predictio
 KNN predicts with 90% accuracy:
  
 While SVM has 93% accuracy:
+
+### This repository contains further two documents:
+
+ 1) See the script for data analysis is in Project_Iris.py
+ 2) See full project document in MS Word format in file Project_Iris.doc
  
 
 ## References:
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set
+2. https://en.wikipedia.org/wiki/Analysis_of_variance
+3. https://medium.com/@livingwithdata/exploring-the-iris-dataset-260cc1e5cdf7
+
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 
