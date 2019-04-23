@@ -22,9 +22,11 @@ Traditionally this data set used for prediction, classification to identify the 
 To view data set – top 5 lines:
 
 
-<img src = "Figure_1_boxplot.png" width = "250">
+<img src = "Figure_1_boxplot.png" width = "300">
  
 To view data set last 5 lines:
+
+<img src = "Figure_1_boxplot.png" width = "300">
  
 To gain basic info on data:
  
