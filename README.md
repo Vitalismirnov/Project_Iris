@@ -28,13 +28,13 @@ To view data set last 5 lines:
 
 <img src = "tail.png" width = "500">
 
-View 5 random rows from the data set:
+View 5 random rows from the data set [5]:
 
-<img src = "sample5.png" width = "500">
+<img src = "sample5.PNG" width = "500">
 
-Is there any null data in our data set?:
+Is there any null data in our data set? [5]:
 
-<img src = "null.png" width = "500">
+<img src = "null.PNG" width = "500">
  
 To gain basic info on data:
 
@@ -112,5 +112,6 @@ While SVM has 93% accuracy:
 5. https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 6. https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets
 7. A number of Iris Data Analysis project were consulted on www.kaggel.com these helped in planning this project.
+
 
 
