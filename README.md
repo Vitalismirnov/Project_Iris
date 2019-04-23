@@ -63,22 +63,22 @@ Iris data set is very useful in testing classification algorisms in machine lear
 
 The following algorisms were used for this project, Python code adapted from [5]:
 
- # 1.LogisticRegression
- # 2.LinearDiscriminantAnalysis
- # 3.KNeighborsClassifier
- # 4.DecisionTreeClassifier
- # 5.GaussianNB
- # 6.SVC
+ #### 1.LogisticRegression
+ #### 2.LinearDiscriminantAnalysis
+ #### 3.KNeighborsClassifier
+ #### 4.DecisionTreeClassifier
+ #### 5.GaussianNB
+ #### 6.SVC
 In calssification algorithms the data is split in training and validation parts. Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.[6]
 
 For example, the following is the output from all training algorisms:
 
-# LR: 0.966667 (0.040825)
-# LDA: 0.975000 (0.038188)
-# KNN: 0.983333 (0.033333)
-# CART: 0.966667 (0.040825)
-# NB: 0.975000 (0.053359)
-# SVM: 0.991667 (0.025000)
+#### LR: 0.966667 (0.040825)
+#### LDA: 0.975000 (0.038188)
+#### KNN: 0.983333 (0.033333)
+#### CART: 0.966667 (0.040825)
+#### NB: 0.975000 (0.053359)
+#### SVM: 0.991667 (0.025000)
 
 KNN and SVM seem to be performing very well. These can be used to make predictions:
 KNN predicts with 90% accuracy:
