@@ -26,11 +26,15 @@ from sklearn.svm import SVC
 # read in Iris data as a data frame
 iris = pd.read_csv('Iris.csv')
 #check the data read in correctly
+#top 5 lines of data frame
 iris.head()
+#bottom 5 lines of dara frame
 iris.tail()
 #info on dataset
 iris.info()
 #summary stats of numeric vars
+#to check for count (are there missing data?)
+#mean, min, max, standard deviation (is mean representative?)
 iris.describe()
 
 #from: https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
