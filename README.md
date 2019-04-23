@@ -22,54 +22,57 @@ Traditionally this data set used for prediction, classification to identify the 
 To view data set – top 5 lines:
 
 
-<img src = "head.png" width = "300">
+<img src = "head.png" width = "500">
  
 To view data set last 5 lines:
 
-<img src = "tail.png" width = "300">
+<img src = "tail.png" width = "500">
  
 To gain basic info on data:
 
-<img src = "info.png" width = "350">
+<img src = "info.png" width = "550">
  
 Basic stats of the numeric variables: shows number of observations, averages, standard deviation, min, max and 25th, 50th and 75th percentalies.
  
-<img src = "describe.png" width = "350"> 
+<img src = "describe.png" width = "550"> 
  
 ## 3. Further Data Analysis
 
 Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
 
-<img src = "Figure_1_boxplot.png" width = "300">
+<img src = "Figure_1_boxplot.png" width = "600">
  
 Histogram is another way to gain insights into data distribution. 
 
-<img src = "Figure_2_hist.png" width = "300">
+<img src = "Figure_2_hist.png" width = "600">
 
 This is important as some statistical analysis requires normal distribution of data. The only variable that approximates normal distribution is sepal_width. Petal_length and petal_width variables have a very strange distribution. It looks like two different data sets. 
 
-<img src = "Figure_3_scatter.png" width = "300">
+<img src = "Figure_3_scatter.png" width = "600">
 
 Adding scatter plots helps to see further that parts of data on all variables stands separetely. The graph below  
 Similar graph is available in seaborn module. It’s a matter of personal preference but it looks a bit better. searborn.scatter() allows to display the following: 
 
-<img src = "Figure_4_scatter_seaborn.png" width = "300">
+<img src = "Figure_4_scatter_seaborn.png" width = "600">
 
 Seaborn.scatter( by speacies) allows to separate data on a scatter plot with different colour for species.. Right away it is obvious that data for different species clusters together. Iris setosa stands apart on all dimensions.
 
-<img src = "Figure_5_scatter_bySpecies.png width = "300">
+<img src = "Figure_5_scatter_bySpecies.png width = "600">
  
 Iris data set is very useful in testing classification algorisms in machine learning. 
-The following algorisms were used for this project, Python code adapted from https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342:
-LogisticRegression
-LinearDiscriminantAnalysis
-KNeighborsClassifier
-DecisionTreeClassifier
-GaussianNB
-SVC
-The data is split in training and validation parts.
-Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.
+
+The following algorisms were used for this project, Python code adapted from [5]:
+
+1.LogisticRegression
+2.LinearDiscriminantAnalysis
+3.KNeighborsClassifier
+4.DecisionTreeClassifier
+5 GaussianNB
+6 SVC
+In calssification algorithms the data is split in training and validation parts. Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.[6]
+
 For example, the following is the output from all training algorisms:
+
 LR: 0.966667 (0.040825)
 LDA: 0.975000 (0.038188)
 KNN: 0.983333 (0.033333)
@@ -78,13 +81,17 @@ NB: 0.975000 (0.053359)
 SVM: 0.991667 (0.025000)
 KNN and SVM seem to be performing very well. These can be used to make predictions:
 KNN predicts with 90% accuracy:
- 
+
+<img src = "knn.png width = "500">
+
 While SVM has 93% accuracy:
 
-### This repository contains further two documents:
+<img src = "knn.png width = "500">
+
+### This repository contains related documents:
 
  1) See the script for data analysis is in Project_Iris.py
- 2) See full project document in MS Word format in file Project_Iris.doc
+ 2) Images used in this analysis - output generated in ipython
  
 
 ## References:
@@ -92,6 +99,8 @@ While SVM has 93% accuracy:
 2. https://en.wikipedia.org/wiki/Analysis_of_variance
 3. https://medium.com/@livingwithdata/exploring-the-iris-dataset-260cc1e5cdf7
 4. https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
+5. https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+6. https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets
+7. A number of Iris Data Analysis project were consulted on www.kaggel.com these helped in planning this project.
 
-https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 
