@@ -18,7 +18,7 @@ The data set collected from three iris species (iris versicolor, iris setosa and
 
 Traditionally this data set used for prediction, classification to identify the flowers as a certain type of irises. By visually observing this data you could see how data grouping in cluster with these three different types of irises. This data set has become a classic, and is often used in the literature to illustrate the work of various statistical algorithms.[3]
 
-## 2. Descriptive Statistics
+### 2. Descriptive Statistics
 To view data set – top 5 lines:
 
 
@@ -36,7 +36,7 @@ Basic stats of the numeric variables: shows number of observations, averages, st
  
 <img src = "describe.png" width = "550"> 
  
-## 3. Further Data Analysis
+### 3. Further Data Analysis
 
 Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
 
@@ -57,36 +57,37 @@ Similar graph is available in seaborn module. It’s a matter of personal prefer
 
 Seaborn.scatter( by speacies) allows to separate data on a scatter plot with different colour for species.. Right away it is obvious that data for different species clusters together. Iris setosa stands apart on all dimensions.
 
-<img src = "Figure_5_scatter_bySpecies.png width = "600">
+<img src = "Figure_5_scatter_bySpecies.png" width = "600">
  
 Iris data set is very useful in testing classification algorisms in machine learning. 
 
 The following algorisms were used for this project, Python code adapted from [5]:
 
-1.LogisticRegression
-2.LinearDiscriminantAnalysis
-3.KNeighborsClassifier
-4.DecisionTreeClassifier
-5 GaussianNB
-6 SVC
+ # 1.LogisticRegression
+ # 2.LinearDiscriminantAnalysis
+ # 3.KNeighborsClassifier
+ # 4.DecisionTreeClassifier
+ # 5.GaussianNB
+ # 6.SVC
 In calssification algorithms the data is split in training and validation parts. Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.[6]
 
 For example, the following is the output from all training algorisms:
 
-LR: 0.966667 (0.040825)
-LDA: 0.975000 (0.038188)
-KNN: 0.983333 (0.033333)
-CART: 0.966667 (0.040825)
-NB: 0.975000 (0.053359)
-SVM: 0.991667 (0.025000)
+# LR: 0.966667 (0.040825)
+# LDA: 0.975000 (0.038188)
+# KNN: 0.983333 (0.033333)
+# CART: 0.966667 (0.040825)
+# NB: 0.975000 (0.053359)
+# SVM: 0.991667 (0.025000)
+
 KNN and SVM seem to be performing very well. These can be used to make predictions:
 KNN predicts with 90% accuracy:
 
-<img src = "knn.png width = "500">
+<img src = "knn.png" width = "500">
 
 While SVM has 93% accuracy:
 
-<img src = "knn.png width = "500">
+<img src = "knn.png" width = "500">
 
 ### This repository contains related documents:
 
