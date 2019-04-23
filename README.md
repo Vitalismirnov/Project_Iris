@@ -18,7 +18,7 @@ The data set collected from three iris species (iris versicolor, iris setosa and
 
 Traditionally this data set used for prediction, classification to identify the flowers as a certain type of irises. By visually observing this data you could see how data grouping in cluster with these three different types of irises. This data set has become a classic, and is often used in the literature to illustrate the work of various statistical algorithms.[3]
 
-## Descriptive Statistics
+## 2. Descriptive Statistics
 To view data set – top 5 lines:
 
 
@@ -34,15 +34,30 @@ To gain basic info on data:
  
 Basic stats of the numeric variables: shows number of observations, averages, standard deviation, min, max and 25th, 50th and 75th percentalies.
  
+<img src = "describe.png" width = "350"> 
  
-Further Data Analysis
-Box lot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).
+## 3. Further Data Analysis
+
+Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
+
+<img src = "Figure_1_boxplot.png" width = "300">
  
 Histogram is another way to gain insights into data distribution. 
+
+<img src = "Figure_2_hist.png" width = "300">
+
 This is important as some statistical analysis requires normal distribution of data. The only variable that approximates normal distribution is sepal_width. Petal_length and petal_width variables have a very strange distribution. It looks like two different data sets. 
+
+<img src = "Figure_3_scatter.png" width = "300">
+
 Adding scatter plots helps to see further that parts of data on all variables stands separetely. The graph below  
 Similar graph is available in seaborn module. It’s a matter of personal preference but it looks a bit better. searborn.scatter() allows to display the following: 
+
+<img src = "Figure_4_scatter_seaborn.png" width = "300">
+
 Seaborn.scatter( by speacies) allows to separate data on a scatter plot with different colour for species.. Right away it is obvious that data for different species clusters together. Iris setosa stands apart on all dimensions.
+
+<img src = "Figure_5_scatter_bySpecies.png width = "300">
  
 Iris data set is very useful in testing classification algorisms in machine learning. 
 The following algorisms were used for this project, Python code adapted from https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342:
@@ -76,6 +91,7 @@ While SVM has 93% accuracy:
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set
 2. https://en.wikipedia.org/wiki/Analysis_of_variance
 3. https://medium.com/@livingwithdata/exploring-the-iris-dataset-260cc1e5cdf7
+4. https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
 
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 
