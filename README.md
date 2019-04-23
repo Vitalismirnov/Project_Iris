@@ -20,7 +20,9 @@ Traditionally this data set used for prediction, classification to identify the 
 
 ## Descriptive Statistics
 To view data set – top 5 lines:
-<img src = "Figure_1_boxplot.png" width = "150">
+
+
+<img src = "Figure_1_boxplot.png" width = "250">
  
 To view data set last 5 lines:
  
