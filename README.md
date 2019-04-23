@@ -27,6 +27,14 @@ To view data set – top 5 lines:
 To view data set last 5 lines:
 
 <img src = "tail.png" width = "500">
+
+View 5 random rows from the data set:
+
+<img src = "sample5.png" width = "500">
+
+Is there any null data in our data set?:
+
+<img src = "null.png" width = "500">
  
 To gain basic info on data:
 
