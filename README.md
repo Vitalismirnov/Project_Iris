@@ -22,13 +22,15 @@ Traditionally this data set used for prediction, classification to identify the 
 To view data set – top 5 lines:
 
 
-<img src = "Figure_1_boxplot.png" width = "300">
+<img src = "head.png" width = "300">
  
 To view data set last 5 lines:
 
-<img src = "Figure_1_boxplot.png" width = "300">
+<img src = "tail.png" width = "300">
  
 To gain basic info on data:
+
+<img src = "info.png" width = "350">
  
 Basic stats of the numeric variables: shows number of observations, averages, standard deviation, min, max and 25th, 50th and 75th percentalies.
  
