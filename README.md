@@ -35,8 +35,9 @@ To gain basic info on data:
 Basic stats of the numeric variables: shows number of observations, averages, standard deviation, min, max and 25th, 50th and 75th percentalies.
  
 <img src = "describe.png" width = "550"> 
- 
+
 ### 3. Further Analysis
+
 
 Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
 
