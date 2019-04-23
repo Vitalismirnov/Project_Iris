@@ -37,7 +37,6 @@ Basic stats of the numeric variables: shows number of observations, averages, st
 <img src = "describe.png" width = "550"> 
  
 ### 3. Further Data Analysis
-
 Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
 
 <img src = "Figure_1_boxplot.png" width = "600">
