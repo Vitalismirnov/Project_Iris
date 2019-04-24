@@ -79,12 +79,12 @@ Seaborn.scatter( by speacies) allows to separate data on a scatter plot with dif
 Iris data set is very useful in testing classification algorisms in machine learning. 
 
 The following algorisms were used for this project, Python code adapted from [5]:
- #### 1.LogisticRegression
- #### 2.LinearDiscriminantAnalysis
- #### 3.KNeighborsClassifier
- #### 4.DecisionTreeClassifier
- #### 5.GaussianNB
- #### 6.SVC
+ &ensp; 1.LogisticRegression \
+ &ensp; 2.LinearDiscriminantAnalysis \
+ &ensp; 3.KNeighborsClassifier \
+ &ensp; 4.DecisionTreeClassifier \
+ &ensp; 5.GaussianNB \
+ &ensp; 6.SVC \
 In calssification algorithms the data is split in training and validation parts. Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.[6]
 
 For example, the following is the output from all training algorisms:
@@ -120,12 +120,12 @@ For example, the following is the output from all training algorisms:
      msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
      print(msg)
 
-#### LR: 0.966667 (0.040825)
-#### LDA: 0.975000 (0.038188)
-#### KNN: 0.983333 (0.033333)
-#### CART: 0.966667 (0.040825)
-#### NB: 0.975000 (0.053359)
-#### SVM: 0.991667 (0.025000)
+&ensp; LR: 0.966667 (0.040825) \
+&ensp; LDA: 0.975000 (0.038188) \
+&ensp; KNN: 0.983333 (0.033333) \
+&ensp; CART: 0.966667 (0.040825) \
+&ensp; NB: 0.975000 (0.053359) \
+&ensp; SVM: 0.991667 (0.025000) \
 
 KNN and SVM seem to be performing very well. These can be used to make predictions:
 KNN predicts with 90% accuracy:
