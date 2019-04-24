@@ -79,6 +79,7 @@ Seaborn.scatter( by speacies) allows to separate data on a scatter plot with dif
 Iris data set is very useful in testing classification algorisms in machine learning. 
 
 The following algorisms were used for this project, Python code adapted from [5]:
+
  &ensp; 1. Logistic Regression \
  &ensp; 2. Linear Discriminant Analysis \
  &ensp; 3. KNeighbors Classifier \
