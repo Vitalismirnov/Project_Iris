@@ -79,12 +79,12 @@ Seaborn.scatter( by speacies) allows to separate data on a scatter plot with dif
 Iris data set is very useful in testing classification algorisms in machine learning. 
 
 The following algorisms were used for this project, Python code adapted from [5]:
- &ensp; 1.LogisticRegression \
- &ensp; 2.LinearDiscriminantAnalysis \
- &ensp; 3.KNeighborsClassifier \
- &ensp; 4.DecisionTreeClassifier \
- &ensp; 5.GaussianNB \
- &ensp; 6.SVC \
+ &ensp; 1. Logistic Regression \
+ &ensp; 2. Linear Discriminant Analysis \
+ &ensp; 3. KNeighbors Classifier \
+ &ensp; 4. Decision Tree Classifier \
+ &ensp; 5. Gaussian NB \
+ &ensp; 6. SVC \
 In calssification algorithms the data is split in training and validation parts. Classification algorisms are run on training part of data. The matrix allows to see which algorism performs well.[6]
 
 For example, the following is the output from all training algorisms:
