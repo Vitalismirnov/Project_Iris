@@ -125,7 +125,7 @@ For example, the following is the output from all training algorisms:
 &ensp; KNN: 0.983333 (0.033333) \
 &ensp; CART: 0.966667 (0.040825) \
 &ensp; NB: 0.975000 (0.053359) \
-&ensp; SVM: 0.991667 (0.025000) \
+&ensp; SVM: 0.991667 (0.025000) 
 
 KNN and SVM seem to be performing very well. These can be used to make predictions:
 KNN predicts with 90% accuracy:
