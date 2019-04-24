@@ -51,6 +51,12 @@ Basic stats of the numeric variables: shows number of observations, averages, st
 
 Box plot visualises statistic data average, median, min, max, percentiles.  It allows one to quickly determine if the averages are representative. It also plots so-called outliers (circles on the plot).[4]
 
+     iris.plot(kind="box")
+     iris.hist()
+     scatter_matrix(iris)
+     sns.pairplot(iris, hue = 'species')
+     plt.show()
+
 <img src = "Figure_1_boxplot.png" width = "600">
  
 Histogram is another way to gain insights into data distribution. 
