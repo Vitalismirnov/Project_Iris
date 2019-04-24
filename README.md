@@ -1,7 +1,7 @@
 ## Vitalis Smirnovs
-## Student ID # G00317774
-## GMIT 2019
-## Lecturer @Ian McLoughlin
+### Student ID # G00317774
+### GMIT 2019
+### Lecturer @Ian McLoughlin (https://github.com/ianmcloughlin)
 #  Project: Iris Data Analysis
 
 ### Project Plan:
